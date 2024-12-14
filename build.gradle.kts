@@ -1,6 +1,7 @@
 import java.net.URI
 
 plugins {
+    java
     kotlin("jvm") version "2.1.0"
     `maven-publish`
 }
