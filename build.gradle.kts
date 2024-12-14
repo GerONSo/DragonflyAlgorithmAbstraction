@@ -20,3 +20,15 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.geronso"
+            artifactId = "dragonfly-algorithm"
+            version = "1.0"
+
+            from(components["java"])
+        }
+    }
+}
