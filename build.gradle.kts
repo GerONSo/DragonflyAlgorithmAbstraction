@@ -2,10 +2,11 @@ import java.net.URI
 
 plugins {
     kotlin("jvm") version "2.1.0"
+    `maven-publish`
 }
 
 group = "com.geronso"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 repositories {
     mavenCentral()
